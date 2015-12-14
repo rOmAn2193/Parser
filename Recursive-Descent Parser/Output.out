@@ -1,0 +1,77 @@
+<parse> 
+<gettoken> ( <exp> <term> <factor> 
+<gettoken> ( <exp> <term> <factor> 
+<gettoken> 2 <exp> <term> <factor> <number> <digit>
+<gettoken> ) 
+<gettoken> ) 
+The parse has been completed correctly.
+
+<parse> 
+<gettoken> 3 <exp> <term> <factor> <number> <digit>
+<gettoken> + 
+<gettoken> 4 <term> <factor> <number> <digit>
+<gettoken> * 
+<gettoken> 5 <factor> <number> <digit>
+<gettoken> + 
+<gettoken> 6 <term> <factor> <number> <digit>
+<gettoken> * 
+<gettoken> 7 <factor> <number> <digit>
+The parse has been completed correctly.
+
+<parse> 
+<gettoken> 3 <exp> <term> <factor> <number> <digit>
+<gettoken> * 
+<gettoken> 2 <factor> <number> <digit>
+<gettoken> + 
+<gettoken> 4 <term> <factor> <number> <digit>
+<gettoken> * 
+<gettoken> 5 <factor> <number> <digit>
+<gettoken> + 
+<gettoken> 1 <term> <factor> <number> <digit>
+The parse has been completed correctly.
+
+<parse> 
+<gettoken> 3 <exp> <term> <factor> <number> <digit>
+<gettoken> * 
+<gettoken> ( <factor> 
+<gettoken> 4 <exp> <term> <factor> <number> <digit>
+<gettoken> + 
+<gettoken> 5 <term> <factor> <number> <digit>
+<gettoken> ) 
+<gettoken> * 
+<gettoken> ( <factor> 
+<gettoken> 6 <exp> <term> <factor> <number> <digit>
+<gettoken> + 
+<gettoken> 7 <term> <factor> <number> <digit>
+<gettoken> ) 
+The parse has been completed correctly.
+
+<parse> 
+<gettoken> ( <exp> <term> <factor> 
+<gettoken> 2 <exp> <term> <factor> <number> <digit>
+<gettoken> + 
+<gettoken> ( <term> <factor> 
+<gettoken> 3 <exp> <term> <factor> <number> <digit>
+<gettoken> + 
+<gettoken> ( <term> <factor> 
+<gettoken> 4 <exp> <term> <factor> <number> <digit>
+<gettoken> + 
+<gettoken> 5 <term> <factor> <number> <digit>
+<gettoken> ) 
+<gettoken> ) 
+<gettoken> ) 
+The parse has been completed correctly.
+
+<parse> 
+<gettoken> ( <exp> <term> <factor> 
+<gettoken> 2 <exp> <term> <factor> <number> <digit>
+<gettoken> + 
+<gettoken> 3 <term> <factor> <number> <digit>
+<gettoken> ) 
+<gettoken> * 
+There was an error in the parse.
+
+<parse> 
+<gettoken> 2 
+<gettoken> + 
+There was an error in the parse.
